@@ -133,7 +133,7 @@ body {
 
 /* HEADER */
 
-header {
+/* header {
     background-color: greenyellow;
     background-image: url("images/hero.jpg");
     background-size: 60%;
@@ -164,7 +164,7 @@ header .logo a {
     text-indent: -9999999px;
     top: -30px;
     width: 300px;
-}
+} */
 
 /* RESPONSIVE RULES */
 @media screen and (max-width: 715px) {

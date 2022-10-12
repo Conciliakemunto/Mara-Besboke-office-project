@@ -1,12 +1,10 @@
-from mara.views import index
+from mara.views import index, about, contact
 from django.urls import path
-from mara.views import about
-from django.urls import path
+
 
 
 urlpatterns=[ 
-    path('', index)
-]
-urlpatterns=[
-    path('', about)
+    path('', index, name='index'),
+    path('about/', about, name='about'),
+    path('contact/', contact,name='contact'),
 ]
