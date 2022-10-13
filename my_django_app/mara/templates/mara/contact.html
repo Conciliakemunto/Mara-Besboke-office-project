@@ -1,34 +1,74 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial scale=1.0">
         <title>Contact page</title>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/contact.css' %}">
+
     </head>
     <body>
-        <div class="contact-us">
-            <h1>CONTACT US</h1>
-            <P>You can reach out to us through email or our social platforms</P>
-        </div>
-        <div>
-            <div class="form">
-                <div class="form-item">
-                    <input type="text"class="input"placeholder="First Name">
+        <section class="contact">
+            <div class="content">
+                <h1>Contact Us</h1>
+                <p>This is our contact page.
+                    Feel free to reach out to us and leave your comment to help us improve our services.
+                    We value our customer's feedback.
+                </p>
+            </div>
+            <div class="container">
+                <div class="ContactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-maker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>P.O.BOX
+                                17037-00500
+                            </p>
+                        </div>
+                    </div>
                     <p>
-                    <input type="text"class="input"placeholder="last Name">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o" arial hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>conciliakemunto@gmail.com</p>
+                        </div>
+                    </div>
                     <p>
-                    <input type="text"class="input"placeholder="Email">
-                    <p>
-                    <textarea class="input message"cols="30"=rows="50"placeholder="message"></textarea>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone"aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Phone Number:</h3>
+                            <p>+254 740 259 504</p>
+                        </div>
+                    </div>
                     <p>
                 </div>
-                <div>
-                    <div class="btn">
-                        <input type="submit""send your information"><br>
-                        <input type="reset""clear the information">
-                    </div>
+                <div class="contactForm">
+                    <form>
+                        <h2>Send message</h2>
+                        <div class="inputBox">
+                            <input type="text"name=""required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text"name=""required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required"></textarea>
+                            <span>Type your message</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit"name="" value="send">
+                        </div>
+                    </form>
                 </div>
             </div>
-        </div>
+        </section>
+        
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8149491932672!2d36.82370381427473!3d-1.2849936359860237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f116041c8127d%3A0x97121230126f6bd0!2sCBD!5e0!3m2!1sen!2ske!4v1665583327354!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </body>
 </html>
