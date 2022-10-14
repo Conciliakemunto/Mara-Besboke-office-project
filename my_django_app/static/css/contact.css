@@ -83,7 +83,7 @@
 {
     width: 40%;
     padding: 40px;
-    background: whitesmoke;
+    background: blue;
 }
 .contactForm h2
 {
@@ -119,10 +119,15 @@
     transition: 0.5s;
     color: #666;
 }
-.contactForm .inputBox input:focus~span,
-.contactForm .inputBox input:valid~span,
-.contactForm .inputBox input:focus~span,
-.contactForm .inputBox input:valid~span
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
 {
     color: #e91e63;
     font-size: 12px;
