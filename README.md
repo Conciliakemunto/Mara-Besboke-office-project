@@ -1,6 +1,6 @@
 # Final Project
 
-This is a final plp project. It is an app that solves marketing problems.
+This is a project that enables people to book office space and make payments from their comfort.
  
 * We have chosen the name: Mara Bespoke office spaces.
 * Authors are: 
@@ -29,6 +29,6 @@ We offer a variety of services on our Bespoke Packages
 Welcome to a divine lounge area with state of the art amenities and top notch services in the industry.
 
 ## Link
-[Mara Bespoke Office Spaces](https://www.marabespokeofficespaces.com)
+[Mara-Bespoke-office Spaces](https://www.marabespokeofficespaces.com)
 
 
