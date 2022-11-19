@@ -7,44 +7,63 @@
         
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="{% url 'index' %}">Home</a></li>
-                    <li class="desktop"><a href="{% url 'about' %}">About Us</a></li>
-                    <li class="desktop"><a href="{% url 'contact' %}">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div class="header">
+            <ul>
+                <li class="active"><a href="{% url 'index' %}">Home</a></li>
+                <li class="desktop"><a href="{% url 'about' %}">About Us</a></li>
+                <li class="desktop"><a href="{% url 'contact' %}">Contact</a></li>              
+            </ul>
+        </div>
+        <section class="button">
+            <button type="submit"><a href="{% url 'signup' %}">signup</a></button>
+            <button type="submit"><a href="{% url 'signin' %}">signin</a></button>
+            <button type="submit"><a href="{% url 'signout' %}">signout</a></button>
+        </section>
         <section class="features">
             <figure>
                 <img src="{% static 'images/comfortableworkarea.jpg' %}" alt="comfortable work area">
                 <figcaption>Comfortable Work Area</figcaption>
+                <p>We offer free internet connection and ample packing space.
+                    The environment is cool and free from noise 
+                    It is also surrounded with the best social amenities.
+                </p>
+
 
             </figure>
             <figure>
                 <img src="{% static 'images/amazingofficespace.jpg' %}" alt="amazing office space">
                 <figcaption>Amazing Office Spaces</figcaption>
+                <p> Perfect lighting to increase your productivity.
+                    The office is suited with desktop computer with perfectly working
+                    mouse and keyboard.
+                </p>
 
             </figure>
             <figure>
                 <img src="{% static 'images/greatambience.jpg' %}" alt="great ambience">
                 <figcaption>Great Ambience</figcaption>
+                <p>Our conference rooms are suited with white boards, comfortable chairs and tables to give our clents the confort they desire.
+                   They are also have functioning A/V Equipments,right projectors and viewport.
+                   There are also coffee makers, water boilers and good-quality air conditioner.
+                </p>
 
             </figure>
-           
         </section>
-        <h1>We offer a variety of services on our Bespoke Packages</h1>
-        <li>Presidential Suite</li>
-        <li>King Suite</li>
-        <li>Queen Suite</li>
-        <li>Prince Suite</li> 
+        <div class="container">
+            <div class="content">
+                <h3>We offer a variety of services on our Bespoke Packages</h1>
+                <li>Presidential Suite</li>
+                <li>King Suite</li>
+                <li>Queen Suite</li>           
+                <li>Prince Suite</li> 
+                <h4>Welcome to a divine lounge area with state of the art amenities and top notch services in the industry.<h4>      
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Kimathi streets Nairobi/Kenya + 254-740-259-504.</p>
 
-        <ul>Welcome to a divine lounge area with state of the art amenities and top notch services in the industry.</ul>
-
-        <footer>
-            Kimathi Street Nairobi, Kenya +254-746-338-605 us@me.com 
-        </footer>
+        </div>
     </body>
 
 </html>

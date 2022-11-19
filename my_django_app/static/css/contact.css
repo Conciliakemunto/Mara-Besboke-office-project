@@ -23,11 +23,12 @@
     max-width: 800px;
     text-align: center;
 }
-.contact .content h1
+.contact .content h3
 {
     font-size: 36px;
     font-weight: 700;
-    color: white;
+    color: black;
+    text-transform: uppercase;
 }
 .contact .content p
 {
@@ -58,7 +59,7 @@
 {
     min-width: 60px;
     height: 60px;
-    background: #fff;
+    background: skyblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,13 +78,13 @@
 .container .contactInfo .box .text h3
 {
     font-weight: 500;
-    color: #00bcd4;
+    color: whitesmoke;
 }
 .contactForm
 {
     width: 40%;
     padding: 40px;
-    background: blue;
+    background: skyblue;
 }
 .contactForm h2
 {
@@ -136,7 +137,7 @@
 .contactForm .inputBox input[type="submit"]
 {
     width: 100px;
-    background-color: #00bcd4;
+    background-color: skyblue;
     color: #fff;
     border: none;
     cursor: pointer;
